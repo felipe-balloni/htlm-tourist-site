@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-body bg-background
+    }
+    h1 {
+        @apply text-2xl font-bold mt-2 text-primary;
+    }
+    h2 {
+        @apply text-xl font-bold text-primary mb-2;
+    }
+    h3 {
+        @apply text-lg font-bold text-primary mb-1;
+    }
+    .headline {
+        @apply text-base font-bold text-headline;
+    }
+    p {
+        @apply text-base text-secondary;
+    }
+    .subtitle {
+        @apply text-base text-secondary italic;
+    }
+}
